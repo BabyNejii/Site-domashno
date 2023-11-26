@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) , url(bg3.jpg) no-repeat fixed;
+    background-size: cover; 
+    
+}
+h1{
+  font-family: 'GFS Didot', serif;
+  text-shadow:0px 0px 10px rgba(255, 255, 255, 0.5), 0px 0px 3px rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 20px;
+    height: 11vh;
+    line-height: 11vh;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    
+}
+ul li{
+    list-style: none;
+    font-family: 'GFS Didot', serif;
+    font-size: 3rem;
+    border: 5px solid rgba(255, 255, 255, 0.247) ;
+    transition: 0.5s;
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    width: 20vw;
+    margin-left: 70vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    background-color:rgb(0, 0, 0, 0.4); 
+    text-shadow:0px 0px 10px rgba(255, 255, 255, 0.5), 0px 0px 3px rgba(255, 255, 255, 0.5);
+}
+ul li:hover span{
+    display:none;
+    
+}
+ul .mail:hover::after{
+    content: "spells@magic.com";
+    display: inline-block;
+    text-shadow:0px 0px 10px rgba(141, 52, 18, 1), 0px 0px 3px rgba(141, 52, 18, 1);
+    color: rgba(141, 52, 18, 1);
+    
+}
+ul .num:hover::after{
+    content: "ꅴꖊ᠀ⴵ⼰ԴఽƼՅՑ";
+    display: inline-block;
+    text-shadow:0px 0px 10px rgba(141, 52, 18, 1), 0px 0px 3px rgba(141, 52, 18, 1);
+    color: rgba(141, 52, 18, 1);
+}
+ul .loc:hover::after{
+    content: "Mordor";
+    display: inline-block;
+    text-shadow:0px 0px 10px rgba(141, 52, 18, 1), 0px 0px 3px rgba(141, 52, 18, 1);
+    color: rgba(141, 52, 18, 1);
+}
+ul .path:hover{
+    text-shadow:0px 0px 10px rgba(141, 52, 18, 1), 0px 0px 3px rgba(141, 52, 18, 1);
+    color: rgba(141, 52, 18, 1);
+}
